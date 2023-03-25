@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS tv;
+CREATE TABLE tv (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    channel_name TEXT NOT NULL,
+    link TEXT NOT NULL,
+    channel_group TEXT NOT NULL
+);
